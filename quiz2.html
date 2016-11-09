@@ -1,41 +1,60 @@
-<doctype html>
-<html lang="en">
+
+<html lang="en" id="file">
 <head>
 	<meta charset="UTF-400000">
-	
+	<link rel="stylesheet" type="text/css" href="./css/quiz2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/quiz2.js"></script>
 </head>
-<body>
+<body id="bod">
 	<h1>Welcome To The Wonderful World of Debugging Code</h1>
 
 	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
+		<p>This is a paragraph, I promise.</p>
 
 		<ul class="links">
 			<li>
-				<a>Link 1<a>
+				<a href="#">Link 1</a>
 			</li>
 			<li>
 				<a href="#">Link 2</a>
 			</li>
 			<li>
-				<a href="#">Link 487
+				<a href="#">Link 487</a>
 			</li>
 		</ul>
 	
 
 	<p>I am a lonely paragraph, with no immediate parent.</p>
+	</section>
 
 	<section id=secondarySection>
 		<p>Woop woop!!!</p>
 		<p>See how elegantly we're spaced out?</p>
 		<p>Yeah, we're spaced out alright.<//p>
 		
-		<ol>
-			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
-			<li>That was a really bad joke.</li>
-		<ol>
+		<ol id="list">
+			<li class="i">I'm like an unordered list</li>
+			<li class="i">But I'm more orderly</li>
+			<li class="i">That was a really bad joke.</li>
+		</ol>
 	</section>
-	
+
+	<button id="accordion" class="buttons">ACCORDION</button>
+	<ul id="hide">
+		<li>
+		1
+	</li>
+		<li>
+			2
+		</li>
+	</ul>
+	<button id="quiz" class="buttons">FADING</button>
+
+	<button id="color" class="buttons">COLORS</button>
+
+	<button id="others" class="buttons">FADE OUT THE OTHER BUTTONS!</button>
+
 </body>
-</hmtl>
+
+</html>
